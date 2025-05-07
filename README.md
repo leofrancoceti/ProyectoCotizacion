@@ -1,6 +1,8 @@
 # Proyecto Cotización
 
-Este proyecto es una solución en C# que implementa una arquitectura de tipo Onion (Clean Architecture) para calcular cotizaciones de arrendamiento. El enfoque principal es la claridad del diseño, la separación de responsabilidades y la mantenibilidad del código.
+Este proyecto es una solución en C# que implementa una arquitectura de tipo Onion (Clean Architecture) para calcular cotizaciones de arrendamiento. El enfoque principal es la claridad del diseño, la separación de responsabilidades y la mantenibilidad del código para la prueba Tecnica, el enfoque es mas quue nada de arquit¿ectura.
+## Como extra 
+La prueba tecnica me dieron algunas ideas para poder juntarlo con React (Pero se que se necesitan investigar más cosas)
 
 ## Estructura del Proyecto
 
@@ -49,13 +51,7 @@ La solución está organizada en varias capas:
 - Si el plazo es de 12 a 23 meses, debe tener un enganche mínimo del 7.5%.
 - Si el plazo es mayor a 24 meses, debe tener un enganche mínimo del 5%.
 
-## Cómo Ejecutar el Proyecto
+## Agradezco su valioso timepo y estoy a la orden
+1: Leonardo Franco Pérez
+2: leofranco300@gmail.com
 
-1. Clona el repositorio.
-2. Abre la solución en tu entorno de desarrollo.
-3. Restaura las dependencias del proyecto.
-4. Ejecuta el proyecto y accede a los endpoints de la API REST para probar la funcionalidad.
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si deseas mejorar el proyecto, por favor abre un issue o un pull request.
