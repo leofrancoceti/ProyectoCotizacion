@@ -6,7 +6,7 @@ Este proyecto es una solución en C# que implementa una arquitectura de tipo Oni
 
 ## Objetivo 
 🖥
-Proyecto Entrevista .NET
+
 🎯 Objetivo
 Construir una solución en C# con arquitectura Onion (Onion Architecture o Clean
 Architecture), capaz de calcular una cotización de arrendamiento, considerando
