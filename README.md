@@ -5,19 +5,19 @@
 Este proyecto es una solución en C# que implementa una arquitectura de tipo Onion (Clean Architecture) para calcular cotizaciones de arrendamiento. El enfoque principal es la claridad del diseño, la separación de responsabilidades y la mantenibilidad del código para la prueba Tecnica, el enfoque es mas quue nada de arquit¿ectura.
 
 ## Objetivo 
-🖥
 
-🎯 Objetivo
+
+ Objetivo
 Construir una solución en C# con arquitectura Onion (Onion Architecture o Clean
 Architecture), capaz de calcular una cotización de arrendamiento, considerando
 reglas de negocio predefinidas y principios de diseño limpio. El foco está en la
 claridad del diseño, separación de responsabilidades y mantenibilidad del código.
-🔨 Tecnologías esperadas
+ Tecnologías esperadas
 Plataforma: .NET 6 o superior
 Lenguaje: C#
 Persistencia: Sin base de datos real (datos en memoria o mocks)
 Exposición: API REST
-🗒 Estructura esperada
+ Estructura esperada
 La solución debe organizarse en capas:
 1. Domain (o Core)
 Entidades del dominio: Quote y Client.
@@ -32,7 +32,7 @@ Proyecto Entrevista .NET 1
 4. Presentation (opcional)
 Proyecto de ASP.NET
 Permite probar funcionalidad desde un endpoint
-✅ Requisitos funcionales
+Requisitos funcionales
 Crear metodo post para calcular el pago mensual usando fórmula de pago
 excel.
 Crear metodo post para guardar una cotización.
@@ -111,7 +111,6 @@ La solución está organizada en varias capas:
 - Si el plazo es de 12 a 23 meses, debe tener un enganche mínimo del 7.5%.
 - Si el plazo es mayor a 24 meses, debe tener un enganche mínimo del 5%.
 
-## Agradezco su valioso timepo y estoy a la orden
 1: Leonardo Franco Pérez
 2: leofranco300@gmail.com
 
